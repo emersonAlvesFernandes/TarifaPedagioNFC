@@ -23,7 +23,7 @@ Considere o seguinte fluxo:
 
 Implemente considerando que a leitura por imagens já está pronta e deve-se processar as seguintes entradas:
 - Tipo: Caminhão, placa: "ABC123", estado: "SP", eixos adicionais: 4, comprovante: Papel;
-- Tipo: Carro, placa: "DEF123", estado: "RJ", eixos adicionais: 1, Comprovante: Papel;
+- Tipo: Carro, placa: "DEF123", estado: "RJ", eixos adicionais: 1, Comprovante: Email;
 - Tipo: Carro, placa: "DEF123", estado:"RJ", eixos adicionais: 0, Comprovante: Papel;
-- Tipo: Moto, placa: "GHI123", estado:"MG", eixos adicionais: 0), Comprovante: Papel; 
+- Tipo: Moto, placa: "GHI123", estado:"MG", eixos adicionais: 0), Comprovante: Email; 
 - Tipo: Não Identificado, placa: "JKL123", estado:"RS", Comprovante: Papel;
