@@ -14,16 +14,16 @@ Para veículos pesados, cobra-se 25 reais e um adicional de 15 reais por eixo.
 Após a cobrança, o sistema deve emitir um comprovante de pagamento, no entanto, haverá a opção de escolha entre imprimir ou enviar por e-mail.
 
 Considere o seguinte fluxo: 
-	1) O veículo se aproxima do pedágio;
-	2) O sistema efetua a leitura por imagens e exibe na tela a placa, o estado e o tipo de veículo;
-	3) O sistema consulta serviço para verificar irregularidades e exibe na tela o resultado;
-	4) O sistema calcula o valor a ser cobrado de tarifa e exibe na tela; 
-	5) O motorista aproxima o celular na leitora e faz o pagamento via NFC; 
-	6) O motorista escolhe o meio de emissão do comprovante. O sistema exibe na tela no formado: "*** Comprovante <IMPRESSO/EMAIL>. Veículo GHI123 - Moto . VALOR: XXX ***";
+	1. O veículo se aproxima do pedágio;
+	2. O sistema efetua a leitura por imagens e exibe na tela a placa, o estado e o tipo de veículo;
+	3. O sistema consulta serviço para verificar irregularidades e exibe na tela o resultado;
+	4. O sistema calcula o valor a ser cobrado de tarifa e exibe na tela; 
+	5. O motorista aproxima o celular na leitora e faz o pagamento via NFC; 
+	6. O motorista escolhe o meio de emissão do comprovante. O sistema exibe na tela no formado: "*** Comprovante <IMPRESSO/EMAIL>. Veículo GHI123 - Moto . VALOR: XXX ***";
 
 Implemente considerando que a leitura por imagens já está pronta e deve-se processar as seguintes entradas:
-Tipo: Caminhão, placa: "ABC123", estado: "SP", eixos adicionais: 4, comprovante: Papel;
-Tipo: Carro, placa: "DEF123", estado: "RJ", eixos adicionais: 1, Comprovante: Papel;
-Tipo: Carro, placa: "DEF123", estado:"RJ", eixos adicionais: 0, Comprovante: Papel;
-Tipo: Moto, placa: "GHI123", estado:"MG", eixos adicionais: 0), Comprovante: Papel; 
-Tipo: Não Identificado, placa: "JKL123", estado:"RS", Comprovante: Papel;
+- Tipo: Caminhão, placa: "ABC123", estado: "SP", eixos adicionais: 4, comprovante: Papel;
+- Tipo: Carro, placa: "DEF123", estado: "RJ", eixos adicionais: 1, Comprovante: Papel;
+- Tipo: Carro, placa: "DEF123", estado:"RJ", eixos adicionais: 0, Comprovante: Papel;
+- Tipo: Moto, placa: "GHI123", estado:"MG", eixos adicionais: 0), Comprovante: Papel; 
+- Tipo: Não Identificado, placa: "JKL123", estado:"RS", Comprovante: Papel;
