@@ -1,5 +1,5 @@
 # TarifaPedagioNFC
-Uma companhia de concessão de rodovias te contratou para desenvolver um sistema automatizado para a cobrança de tarifa de seus pedágios. O sistema fará a cobrança via NFC de tal forma que o débito seja feito ao aproximar o aparelho celular de uma leitora. 
+Uma companhia de concessão de rodovias te contratou para desenvolver um sistema automatizado para a cobrança de tarifa de seus pedágios. O sistema fará a cobrança via NFC de tal forma que o débito seja feito ao aproximar o aparelho celular a uma leitora. 
 
 Para definir a tarifa corretamente, o sistema fará a leitura por imagem do veículo a fim de identificar qual é o seu tipo: carro, caminhão ou motocicleta. Em caso de carro ou caminhão, identificará se possui eixos extras.
  
